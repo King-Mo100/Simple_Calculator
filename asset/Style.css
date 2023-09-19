@@ -15,7 +15,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #fff; /* Background color for the calculator */
+    background-color: #1e05ad; /* Background color for the calculator */
 }
 
 .display {
@@ -46,4 +46,11 @@ button:hover {
 
 #clearButton{
     background-color: red;
+}
+
+#addButton{
+    background-color: #0d8844;
+}
+#equalsButton{
+    background-color: #f38c16;
 }
