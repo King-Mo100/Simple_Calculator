@@ -6,3 +6,40 @@ body {
     margin: 0;
     background-color: #f0f0f0; /* Background color for the body */
 }
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff; /* Background color for the calculator */
+}
+
+.display {
+    grid-column: span 4;
+    text-align: right;
+    padding: 10px;
+    background-color: #eee; /* Background color for the display */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 36px; /* Increase font size for better visibility */
+}
+
+button {
+    padding: 10px;
+    font-size: 24px; /* Increase font size for buttons */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Background color for buttons */
+    cursor: pointer;
+    margin: 2px;
+    width: 60px;
+    height: 60px;
+}
+
+button:hover {
+    background-color: #ccc; /* Change button background color on hover */
+}
