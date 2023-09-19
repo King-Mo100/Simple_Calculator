@@ -22,7 +22,7 @@ body {
     grid-column: span 4;
     text-align: right;
     padding: 10px;
-    background-color: #eee; /* Background color for the display */
+    background-color: #69eeb0; /* Background color for the display */
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 36px; /* Increase font size for better visibility */
@@ -42,4 +42,8 @@ button {
 
 button:hover {
     background-color: #ccc; /* Change button background color on hover */
+}
+
+#clearButton{
+    background-color: red;
 }
