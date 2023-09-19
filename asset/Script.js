@@ -21,6 +21,10 @@ document.getElementById('decimalButton').addEventListener('click', () => appendT
 document.getElementById('equalsButton').addEventListener('click', calculateResult);
 document.getElementById('divideButton').addEventListener('click', () => setOperator('/'));
 
+function appendToDisplay(value) {
+    currentInput += value;
+    display.innerText = currentInput;
+}
 
 function clearDisplay() {
     currentInput = '';
@@ -61,7 +65,7 @@ function calculateResult() {
             }
             break;
     }
-    
+
     display.innerText = preValue;
     currentInput = preValue.toString(); // Store the result as the new input
     currentOperator = '';
